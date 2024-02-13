@@ -1,0 +1,41 @@
+body{
+
+    font-family: "Poppins", sans-serif;
+
+}
+
+.container {
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.thumbnail {
+    border-radius: 30px;
+    overflow: hidden;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+.thumbnail img {
+    width: 800px; /* Adjust size as needed */
+    border-radius: 30px;
+}
+
+.details {
+    text-align: center;
+}
+
+.title {
+    font-size: 45px; /* Adjust size as needed */
+    margin: 0;
+}
+
+.date {
+    font-size: 35px; /* Adjust size as needed */
+    color: #888;
+    margin: 0;
+}

@@ -1,0 +1,30 @@
+body {
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #e8ffff;
+}
+.container {
+  background-color: #cff6fd;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgb(165, 241, 241);
+}
+.input-group {
+  margin-bottom: 10px;
+}
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+.btn:hover {
+    background-color: #8bbbbb !important;
+    color: #e8ffff !important;
+}
