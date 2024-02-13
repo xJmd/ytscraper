@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YT-Scraper</title>
+    <link rel="stylesheet" href="static\css\video.css">
+</head>
+<body>
+<div class="container">
+    <div class="thumbnail">
+        <img src="{{ thumbnail }}" alt="Thumbnail", onclick="redirectToYT()">
+    </div>
+    <div class="details">
+        <h1 class="title">{{ title }}</h1>
+        <h2 class="date">{{ date }}</h2>
+    </div>
+</div>
+</body>
+<script>
+    function redirectToYT() {
+        window.location.href = "{{ url }}";
+    }
+</script>
+</html>
